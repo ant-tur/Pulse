@@ -1,7 +1,18 @@
-@import 'vars';
-@import 'fonts';
-@import 'reset';
-@import 'libs';
-@import 'global';
+* {
+	font-family: 'Museo Sans', sans-serif;
+}
 
+a {
+	text-decoration: none;
+}
 
+.container {
+	width: 950px;
+	margin: 0 auto;
+}
+
+@import 'variables';
+@import 'mixins';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
