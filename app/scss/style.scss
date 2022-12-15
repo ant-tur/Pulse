@@ -11,6 +11,10 @@ a {
 	margin: 0 auto;
 }
 
+span {
+	font-family: 'MuseoModerno';
+}
+
 @import 'variables';
 @import 'mixins';
 @import 'blocks/promo';
@@ -21,5 +25,6 @@ a {
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/carousel';
+@import 'blocks/catalog';
 
 @import 'media';

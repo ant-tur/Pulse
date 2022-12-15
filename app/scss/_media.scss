@@ -60,6 +60,12 @@
 		}
 	}
 
+	.catalog {
+		&__content {
+			justify-content: space-around;
+		}
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -159,6 +165,34 @@
 				background-color: black
 			}
 		}
+	}
+
+	.catalog {
+		&__tabs {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		&__tab {
+			margin-bottom: 10px;
+
+			&:nth-child(1) {
+				align-self: flex-start;
+			}
+
+			&:nth-child(2) {
+				align-self: center;
+			}
+
+			&:nth-child(3) {
+				align-self: flex-end;
+			}
+
+			&:hover {
+				box-shadow: none;
+			}
+		}
+
 	}
 }
 
@@ -265,6 +299,18 @@
 	.button {
 		&_submit {
 			width: 100%;
+		}
+	}
+
+	.catalog {
+		padding-bottom: 30px;
+
+		&__tabs {
+			margin-top: 25px;
+		}
+
+		&__content {
+			margin-top: 25px;
 		}
 	}
 }
