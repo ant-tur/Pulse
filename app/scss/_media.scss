@@ -66,6 +66,14 @@
 		}
 	}
 
+	.reviews {
+		&__text {
+			width: 100%;
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -194,6 +202,32 @@
 		}
 
 	}
+
+	.reviews {
+		&__item {
+			margin-top: 30px;
+		}
+
+		&__img {
+			width: 100px;
+			height: 100px;
+			margin-right: 30px;
+		}
+
+		&__name {
+			font-size: 14px;
+		}
+
+		&__achieve {
+			font-size: 12px;
+		}
+
+		&__text {
+			font-size: 13px;
+			line-height: 16px;
+		}
+
+	}
 }
 
 @media (max-width: 575px) {
@@ -311,6 +345,27 @@
 
 		&__content {
 			margin-top: 25px;
+		}
+	}
+
+	.reviews {
+		&__item {
+			margin-top: 30px;
+			flex-direction: column;
+		}
+
+		&__img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+
+		&__name {
+			text-align: center;
+		}
+
+		&__achieve {
+			text-align: center;
 		}
 	}
 }
