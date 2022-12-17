@@ -73,7 +73,6 @@
 			line-height: 20px;
 		}
 	}
-
 }
 
 @media (max-width: 767px) {
@@ -366,6 +365,22 @@
 
 		&__achieve {
 			text-align: center;
+		}
+	}
+
+	.footer {
+		&__info {
+			width: 90%;
+			height: 225px;
+			padding: 25px 0 25px;
+		}
+
+		&__addr {
+			font-size: 18px;
+		}
+
+		&__phone {
+			font-size: 18px;
 		}
 	}
 }
