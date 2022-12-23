@@ -42,6 +42,10 @@ function scripts() {
 	return src([
 		'node_modules/jquery/dist/jquery.js',
 		'app/js/main.js',
+		//add validation plugin
+		'app/js/jquery.validate.min.js',
+		// add masked input plugin
+		'app/js/jquery.maskedinput.min.js',
 	])
 		.pipe(concat('main.min.js'))
 		.pipe(uglify())
