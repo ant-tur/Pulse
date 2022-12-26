@@ -23,6 +23,16 @@
 		}
 	}
 
+	&__img {
+		&_animated {
+			animation: heartbeat 0.8s ease infinite;
+			// animation-name: heartbeat;
+			// animation-duration: 0.8s;
+			// animation-timing-function: ease;
+			// animation-iteration-count: infinite;
+		}
+	}
+
 	&__header {
 		font-weight: 700;
 		text-align: center;

@@ -115,4 +115,25 @@ $(document).ready(function () {
 		});
 		return false;
 	});
+
+	//Smooth scroll and page-up
+
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 1600) {
+			$('.pageup').fadeIn();
+		} else {
+			$('.pageup').fadeOut();
+		}
+	});
+
+	$("a[href^='#']").click(function () {
+		const _href = $(this).attr("href");
+		$("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+	});
+
+	new WOW(
+		{
+			animateClass: 'animate__animated'
+		}
+	).init();
 });

@@ -17,6 +17,8 @@ span {
 
 @import 'variables';
 @import 'mixins';
+@import 'animations';
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -29,5 +31,6 @@ span {
 @import 'blocks/reviews';
 @import 'blocks/footer';
 @import 'blocks/modals';
+@import 'blocks/pageup';
 
 @import 'media';

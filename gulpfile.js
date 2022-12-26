@@ -46,6 +46,8 @@ function scripts() {
 		'app/js/jquery.validate.min.js',
 		// add masked input plugin
 		'app/js/jquery.maskedinput.min.js',
+		// add animation WOW
+		'app/js/wow.min.js'
 	])
 		.pipe(concat('main.min.js'))
 		.pipe(uglify())

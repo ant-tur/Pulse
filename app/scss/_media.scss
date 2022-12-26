@@ -227,6 +227,13 @@
 		}
 
 	}
+
+	.pageup {
+		bottom: 30px;
+		right: 30px;
+		width: 30px;
+		height: 30px;
+	}
 }
 
 @media (max-width: 575px) {
@@ -392,6 +399,7 @@
 			&__close {
 				top: 5px;
 				right: 5px;
+				font-size: 26px;
 			}
 		}
 
